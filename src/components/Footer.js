@@ -1,6 +1,6 @@
 import React from "react";
 import FilterLink from "../containers/FilterLink";
-import { VisibilityFilters } from "../actions";
+import { VisibilityFilters } from "../redux/actions";
 const Footer = () => (
   <p>
     Show: <FilterLink filter={VisibilityFilters.SHOW_ALL}>All</FilterLink>
